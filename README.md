@@ -43,18 +43,5 @@ python run_tests.py --traceback    # the full error of each problem
 
 Giving a question number runs *only* that question's tests, which takes a
 fraction of a second instead of the whole suite.
-
----
-
-## Handing in your work
-
-Work in **your own fork** of this repository. You cannot push to this one: it is
-read-only for students, so that everyone starts from the same skeleton.
-
-1. Fork this repository into your own namespace (**Fork**, top right).
-2. Make your fork **private**, then add your teammate and the teaching team.
-   The whole procedure is in the *Labs on GitLab* handout.
-3. Clone **your fork**, not this repository, and push to it as you go.
-
-Do not commit your virtual environment, the generated CSVs or `tiktok.db`:
+-rtual environment, the generated CSVs or `tiktok.db`:
 `.gitignore` already excludes them.

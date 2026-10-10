@@ -1,5 +1,5 @@
-# TikTok Shop API
-
+# Commerce API
+![Tests](https://github.com/<votre-nom>/creator-ledger/actions/workflows/tests.yml/badge.svg)
 ## Setup
 
 ```bash

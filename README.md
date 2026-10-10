@@ -1,5 +1,24 @@
-# Commerce API
-![Tests](https://github.com/<votre-nom>/creator-ledger/actions/workflows/tests.yml/badge.svg)
+
+![Tests](https://github.com/dagneauxAurelien/creator-ledger/actions/workflows/tests.yml/badge.svg) 
+# Commerce API(Flask, SQLite) 
+giving a company secure access to its sales
+database, with JWT authentication and stock-safe order handling.
+
+## Problem
+
+A brand selling through short-video creators tracked sales in spreadsheets.
+It could not tell which creators and videos brought customers, and a viral
+video once triggered 400 orders for 30 units in stock.
+
+## Features
+
+- Relational model in 3NF (creators, videos, products, customers, orders, ad spend)
+- Data pipeline: raw CSV -> one clean CSV per entity -> SQLite database
+- JWT authentication, passwords hashed with bcrypt
+- Stock can never go negative (409 when stock is too low)
+- Test suite with pytest
+
+## Data model
 ## Setup
 
 ```bash

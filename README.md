@@ -1,5 +1,5 @@
 
-![Tests](https://github.com/dagneauxAurelien/creator-ledger/actions/workflows/tests.yml/badge.svg) 
+![Tests](https://github.com/dagneauxAurelien/Commerce-API/actions/workflows/tests.yml/badge.svg) 
 # Commerce API(Flask, SQLite) 
 giving a company secure access to its sales
 database, with JWT authentication and stock-safe order handling.

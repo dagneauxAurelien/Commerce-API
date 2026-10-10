@@ -1,0 +1,2 @@
+db,./data/tiktok.db
+SECRET_KEY,change-me-with-a-long-random-string

@@ -19,6 +19,7 @@ video once triggered 400 orders for 30 units in stock.
 - Test suite with pytest
 
 ## Data model
+![ER diagram](docs/er_diagram.png)
 ## Setup
 
 ```bash

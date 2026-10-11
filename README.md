@@ -62,5 +62,3 @@ python run_tests.py --traceback    # the full error of each problem
 
 Giving a question number runs *only* that question's tests, which takes a
 fraction of a second instead of the whole suite.
--rtual environment, the generated CSVs or `tiktok.db`:
-`.gitignore` already excludes them.
